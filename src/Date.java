@@ -17,7 +17,7 @@ public class Date {
         return ld;
     }
     public ZonedDateTime method4(){
-        ZoneId zone = ZoneId.of("US/Eastern");
+        ZoneId zone = ZoneId.of("America/New_York");
         ZonedDateTime zd = ZonedDateTime.of(method3(), zone );
         return zd;
     }
